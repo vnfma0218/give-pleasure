@@ -1,3 +1,4 @@
+import TextEditor from '@/components/common/TextEditor';
 import { AiOutlineEye } from 'react-icons/ai';
 
 export default function page() {
@@ -35,7 +36,10 @@ export default function page() {
           </div>
           <div className="w-full relative">
             {/* 입력 input (text editor) */}
-            <div className="border w-full h-20"></div>
+            <div className="border w-full">
+              <TextEditor />
+            </div>
+
             <button className="btn btn-sm absolute right-0 mt-4 px-6 ">
               댓글쓰기
             </button>
