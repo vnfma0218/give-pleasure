@@ -8,3 +8,8 @@ body {
   box-sizing: border-box;
   /* font-size: 1rem; */
 }
+
+.ql-editor {
+  min-height: 100px;
+  max-height: 200px;
+}
